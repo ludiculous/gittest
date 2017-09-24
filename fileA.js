@@ -1,5 +1,5 @@
-function logA() {
-console.log('A');
+function logA(msg) {
+console.log('A' + msg);
 }
 
 module.exports = {
